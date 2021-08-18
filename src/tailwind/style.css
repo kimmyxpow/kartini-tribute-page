@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-svg="arrow-main"] {
+  animation: arrow-main 2s linear infinite;
+}
+
+@keyframes arrow-main {
+  0% {
+    transform: translateY(0)
+  }
+  50% {
+    transform: translateY(0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+[data-line="line-main"] {
+  animation: line-main 2s linear infinite;
+}
+
+@keyframes line-main {
+  0% {
+    transform: translateY(-0.5rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0.5rem);
+    opacity: 0;
+  }
+}
+
+#desc-mode {
+  @apply bg-gray-700 text-white py-1 text-base px-5 rounded absolute w-32 opacity-0 invisible pointer-events-none transition-all duration-300 -bottom-10;
+  left: calc(-100% - 0.5rem);
+}
+
+#desc-mode.show {
+  @apply opacity-100 visible pointer-events-auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-margin-top: 100px;
+}
+
+.link li {
+  transition: .3s;
+}
+
+.link li::after {
+  content: '';
+  display: block;
+  border-width: 3px;
+  border-style: solid;
+  width: 0;
+  border-radius: 100px;
+  transition: all .3s ease;
+  @apply text-typografi-light-nav dark:to-typografi-dark-nav;
+}
+
+.link li.active {
+  color: #FF3767;
+}
+
+.link li.active::after {
+  content: '';
+  display: block;
+  border: 3px solid #FF3767;
+  width: 60%;
+  border-radius: 100px;
+}
+
+.link li:hover {
+  color: #FF3767;
+}
+
+.link li:hover::after {
+  border-color: #FF3767;
+  width: 60%;
+}
+
+.header::before {
+  content: '';
+  display: block;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  background-color: #FFC2D1;
+  top: 1.2rem;
+  left: 0.5rem;
+  z-index: -10;
+  @apply bg-mycolor-light-d-h dark:bg-mycolor-dark-d-h;
+}
+
+* {transition: .3s;}
