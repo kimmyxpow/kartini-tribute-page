@@ -8,9 +8,13 @@
   <link rel="stylesheet" href="public/css/style.css">
   <link rel="shortcut icon" href="public/img/R.A. Kartini.png" type="image/x-icon">
   <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="grid sm:grid-cols-12 grid-cols-8 gap-x-50p font-poppins dark:bg-mycolor-dark">
-  <section class="sm:col-span-12 col-span-8 grid sm:grid-cols-12 grid-cols-8 bg-bg-main bg-cover bg-no-repeat max-w-full py-4 items-center gap-x-50p" style="height: 100vh;">
+<body class="grid sm:grid-cols-12 grid-cols-8 gap-x-50p font-poppins dark:bg-mycolor-dark overflow-x-hidden">
+  <section class="sm:col-span-12 col-span-8 grid sm:grid-cols-12 grid-cols-8 bg-bg-main bg-cover bg-no-repeat max-w-full py-4 items-center gap-x-50p overflow-x-hidden" style="height: 100vh;">
     <div class="col-span-8 col-start-3 grid grid-cols-2 gap-50p items-center">
       <img src="public/img/R.A. Kartini.png" alt="R.A. Kartini">
       <div class="space-y-10">
@@ -27,11 +31,11 @@
         <line data-line="line-main" x1="1.5" y1="14" x2="1.5" y2="44" stroke="#F79F24" stroke-width="3"/>
         <line data-line="line-main" x1="39.5" y1="14" x2="39.5" y2="44" stroke="#F79F24" stroke-width="3"/>
       </svg> 
-    </a>     
+    </a>
   </section>
   <br>
   <section class="mt-10 sm:col-span-12 col-span-8 grid sm:grid-cols-12 grid-cols-8 relative" id="section-content">
-    <div class="sm:col-span-12 col-span-8 grid sm:grid-cols-12 grid-cols-8 bg-white sticky top-0 z-50 dark:bg-mycolor-dark" id="nav">
+    <div class="sm:col-span-12 col-span-8 grid sm:grid-cols-12 grid-cols-8 bg-white sticky top-0 z-50 dark:bg-mycolor-dark" id="nav" data-aos="fade-down">
       <nav class="col-span-8 col-start-3 flex justify-between py-4">
         <div class="relative">
           <button id="dark-mode">
@@ -71,11 +75,11 @@
     </div>
     <main class="col-span-8 col-start-3 mt-28">
       <div id="biografi">
-        <div class="relative max-w-max mx-auto">
+        <div class="relative max-w-max mx-auto" data-aos="fade-down">
           <h1 class="text-4xl font-bold text-typografi-light-header dark:text-typografi-dark-header header">Biografi</h1>
         </div>
         <div class="grid grid-cols-2 gap-50p mt-20">
-          <div class="bg-gradient-to-b from-mycolor to-mycolor-purple flex flex-col items-center pt-8 pb-10 px-14 rounded-lg shadow-myshadow space-y-6 relative">
+          <div class="bg-gradient-to-b from-mycolor to-mycolor-purple flex flex-col items-center pt-8 pb-10 px-14 rounded-lg shadow-myshadow space-y-6 relative" data-aos="fade-right">
             <h2 class="font-bold text-2xl text-white">R.A. Kartini</h2>
             <img src="public/img/Kartini Rounded.png" alt="">
             <table class="w-full flex flex-col gap-4">
@@ -94,20 +98,20 @@
             </table>
             <img src="public/img/Rectangle 1.svg" class="absolute -top-24 -left-16 select-none pointer-events-none" style="z-index: -10;" alt="">            
           </div>
-          <div class="space-y-2">
+          <div class="space-y-2" data-aos="fade-left">
             <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
               <span class="text-mycolor font-medium">Raden Ajeng Kartini Djojo Adhiningrat</span> atau acap disapa <span class="text-mycolor font-medium">Kartini</span> merupakan sosok pahlawan Indonesia yang gigih memperjuangkan hak-hak perempuan. Cita-cita luhur Kartini ingin menghapuskan penderitaan perempuan yang terkungkung dalam tembok tradisi dan adat-istiadat masyarakat feodal-patriarkal Jawa. Kala itu, perempuan selalu menjadi potret tragis yang tidak memiliki kebebasan, seperti pelarangan mengenyam pendidikan, adanya pingitan, hingga harus siap dipoligami oleh suami dengan dalih berbakti.
             </p>
             <div class="inline-block space-y-2">
-              <img class="py-1 px-1.5 rounded dark:bg-mycolor dark:shadow-myshadow" src="public/img/Tanda Tangan Kartini.png" alt="">
+              <img class="py-1 px-1.5 rounded dark:bg-mycolor dark:shadow-myshadow" src="public/img/Tanda Tangan Kartini.png" alt="Tanda Tangan R.A. Kartini">
               <p class="text-sm font-semibold bg-mycolor text-white py-1 px-4 rounded">Tanda Tangan R.A. Kartini</p>
             </div>
           </div>
         </div>
         <div class="grid grid-cols-2 gap-50p mt-32">
-          <div class="space-y-4 order-2">
+          <div class="space-y-4 order-2" data-aos="fade-left">
             <div class="relative">
-              <img class="max-w-full min-w-full" src="public/img/Ayah Kartini, R.M.A.A. Sosroningrat..png" alt="">
+              <img class="max-w-full min-w-full" src="public/img/Ayah Kartini, R.M.A.A. Sosroningrat..png" alt="Ayah Kartini, R.M.A.A. Sosroningrat">
               <svg class="max-w-full min-w-full min-h-full max-h-full absolute -top-5 -right-5 select-none pointer-events-none" style="z-index: -10;" viewBox="0 0 323 410" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="1" y="1" width="321" height="408" stroke="black" stroke-width="2"/>
               </svg>
@@ -116,35 +120,35 @@
             <p class="text-sm font-semibold bg-mycolor text-white py-1 px-4 rounded text-center">Ayah Kartini, R.M.A.A. Sosroningrat.</p>
           </div>
           <div class="grid order-1">
-            <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
+            <p data-aos="fade-right" class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
               Ia merupakan perempuan pribumi keturunan bangsawan dari pasangan <span class="font-medium text-mycolor">Raden Mas Adipati Ario Sosroningrat</span> dan <span class="font-medium text-mycolor">M. A. Ngasirah</span>. Maka itu, ia diperbolehkan untuk mengenyam pendidikan di <span class="font-medium text-mycolor">ELS</span> atau <span class="font-medium text-mycolor">Europeesche Lagere School</span>.
             </p>
-            <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
+            <p data-aos="fade-right" class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
               Sayangnya di masa itu, hanya anak-anak yang memiliki keturunan bangsawan saja yang boleh mengenyam pendidikan sekolah dasar. Bahkan tradisi Jawa hanya memperbolehkan perempuan untuk bersekolah hingga umur 12 tahun.
             </p>
-            <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
+            <p data-aos="fade-right" class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
               Setelah itu, perempuan Jawa diharuskan untuk berdiam diri di rumah hingga menikah nanti. Namun, Kartini memiliki keinginan untuk mengenyam pendidikan yang sama seperti laki-laki. Maka itu, beberapa cara dilakukan oleh Kartini agar mampu mewujudkan keinginannya tersebut.
             </p>
           </div>
         </div>
         <div class="grid grid-cols-2 gap-50p mt-32">
-          <div class="space-y-4">
+          <div class="space-y-4" data-aos="fade-right">
             <div class="relative">
-              <img class="max-w-full min-w-full w-full" src="public/img/Surat Kartini - Rosa Abendanon.png" alt=""> 
+              <img class="max-w-full min-w-full w-full" src="public/img/Surat Kartini - Rosa Abendanon.png" alt="Surat Kartini - Rosa Abendanon"> 
               <svg class="max-w-full min-w-full w-full min-h-full max-h-full absolute -top-5 -left-5 select-none pointer-events-none" style="z-index: -10;" width="324" height="163" viewBox="0 0 324 163" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="1" y="1" width="322" height="161" stroke="black" stroke-width="2"/>
               </svg>
             </div>
             <p class="text-sm font-semibold bg-mycolor text-white py-1 px-4 rounded text-center">Surat Kartini - Rosa Abendanon.</p>
           </div>
-          <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
+          <p data-aos="fade-left" class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
             Salah satu cara yang dilakukan oleh Kartini adalah mempelajari bahasa Belanda dan menulis untuk berbagai macam surat kabar, majalah, dan buku-buku. Pengetahuan Kartini semakin bertambah karena hobinya membaca buku berbahasa Belanda. Sejak saat itu, Kartini mulai tertarik dengan pola pikir perempuan Eropa yang membuatnya ingin memajukan status sosial perempuan Indonesia yang masih rendah kala itu.
           </p>
         </div>
         <div class="grid grid-cols-2 gap-50p mt-32">
-          <div class="space-y-4 order-2">
+          <div class="space-y-4 order-2" data-aos="fade-left">
             <div class="relative">
-              <img class="max-w-full min-w-full" src="public/img/Sekolah Kartini (Kartinischool), 1918..png" alt="">
+              <img class="max-w-full min-w-full" src="public/img/Sekolah Kartini (Kartinischool), 1918..png" alt="Sekolah Kartini (Kartinischool), 1918">
               <svg class="max-w-full min-w-full min-h-full max-h-full absolute -top-5 -right-5" style="z-index: -10;" width="323" height="177" viewBox="0 0 323 177" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="1" y="1" width="321" height="175" stroke="black" stroke-width="2"/>
               </svg>                
@@ -152,44 +156,44 @@
             </div>
             <p class="text-sm font-semibold bg-mycolor text-white py-1 px-4 rounded text-center">Ayah Kartini, R.M.A.A. Sosroningrat.</p>
           </div>
-            <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide order-1">
-              12 November 1903, Kartini menikah dengan Bupati Rembang, <span class="font-medium text-mycolor">K.R.M Adipati Ario Singgih Djojo Adhiningrat</span>. Beruntungnya, Kartini mendapatkan suami yang turut mendukung keinginannya untuk menaikkan derajat perempuan agar setara dengan laki-laki. Bahkan suami Kartini mengizinkan dirinya untuk membangun sekolah perempuan di pintu timur gerbang perkantoran Rembang yang kini sudah menjadi Gedung Pramuka.
-            </p>
+          <p data-aos="fade-right" class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide order-1">
+            12 November 1903, Kartini menikah dengan Bupati Rembang, <span class="font-medium text-mycolor">K.R.M Adipati Ario Singgih Djojo Adhiningrat</span>. Beruntungnya, Kartini mendapatkan suami yang turut mendukung keinginannya untuk menaikkan derajat perempuan agar setara dengan laki-laki. Bahkan suami Kartini mengizinkan dirinya untuk membangun sekolah perempuan di pintu timur gerbang perkantoran Rembang yang kini sudah menjadi Gedung Pramuka.
+          </p>
         </div>
       </div>
       <img class="my-20" src="public/img/Divide.svg" alt="">
     </main>
     <div class="sm:col-span-12 col-span-8" id="surat">
-      <div class="relative max-w-max mx-auto">
+      <div class="relative max-w-max mx-auto" data-aos="fade-down">
         <h1 class="text-4xl font-bold text-typografi-light-header dark:text-typografi-dark-header header">Surat</h1>
       </div>
-      <section class="bg-mycolor mt-20 grid grid-cols-2 gap-50p items-center">
-        <img src="public/img/Surat Kartini - Rosa Abendanon 2.svg" alt="">
-        <p class="font-normal text-lg text-typografi-red-light tracking-wide" style="padding-right: 3.125rem;">
+      <section class="bg-mycolor mt-20 grid grid-cols-2 gap-50p items-center overflow-x-hidden">
+        <img data-aos="fade-right" src="public/img/Surat Kartini - Rosa Abendanon 2.svg" alt="Surat Kartini - Rosa Abendanon">
+        <p data-aos="fade-left" class="font-normal text-lg text-typografi-red-light tracking-wide" style="padding-right: 3.125rem;">
           Setelah Kartini wafat, Jacques Abendanon mengumpulkan dan membukukan surat-surat yang pernah dikirimkan R.A Kartini pada teman-temannya di Eropa. Abendanon saat itu menjabat sebagai Menteri Kebudayaan, Agama, dan Kerajinan Hindia Belanda. Buku itu diberi judul Door Duisternis tot Licht yang arti harfiahnya "Dari Kegelapan Menuju Cahaya". Buku kumpulan surat Kartini ini diterbitkan pada 1911. Buku ini dicetak sebanyak lima kali, dan pada cetakan terakhir terdapat tambahan surat Kartini.
         </p>
       </section>
     </div>
     <main class="col-span-10 col-start-2 mt-20">
       <div class="grid grid-flow-col gap-50p items-center">
-        <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
+        <p data-aos="fade-right" class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
           Pada tahun 1922, Balai Pustaka menerbitkannya dalam bahasa Melayu dengan judul yang diterjemahkan menjadi <span class="font-medium text-mycolor">Habis Gelap Terbitlah Terang: Boeah Pikiran</span>, yang merupakan terjemahan oleh Empat Saudara. Kemudian tahun 1938, keluarlah Habis Gelap Terbitlah Terang versi Armijn Pane seorang sastrawan Pujangga Baru. Armijn membagi buku menjadi lima bab pembahasan untuk menunjukkan perubahan cara berpikir Kartini sepanjang waktu korespondensinya. Versi ini sempat dicetak sebanyak sebelas kali. Surat-surat Kartini dalam bahasa Inggris juga pernah diterjemahkan oleh Agnes L. Symmers. Selain itu, surat-surat Kartini juga pernah diterjemahkan ke dalam bahasa-bahasa Jawa dan Sunda.
         </p>
         <svg width="8" height="451" viewBox="0 0 8 451" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="4" y1="4" x2="3.99998" y2="447" stroke="#FF3767" stroke-width="8" stroke-linecap="round"/>
         </svg>          
-        <p class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
+        <p data-aos="fade-left" class="font-normal text-lg text-typografi-light-p dark:text-typografi-dark-p tracking-wide">
           Terbitnya surat-surat Kartini, seorang perempuan pribumi, sangat menarik perhatian masyarakat Belanda, dan pemikiran-pemikiran Kartini mulai mengubah pandangan masyarakat Belanda terhadap perempuan pribumi di Jawa. Pemikiran-pemikiran Kartini yang tertuang dalam surat-suratnya juga menjadi inspirasi bagi tokoh-tokoh kebangkitan nasional Indonesia, antara lain W.R. Soepratman yang menciptakan lagu berjudul <span class="font-medium text-mycolor">"Ibu Kita Kartini"</span>. Lagu tersebut menggambarkan inti perjuangan wanita untuk merdeka.
         </p>
       </div>
     </main>
     <img class="my-20 col-start-3 col-span-8" src="public/img/Divide.svg" alt="">
     <main class="col-span-8 col-start-3 mt-20" id="buku">
-      <div class="relative max-w-max mx-auto">
+      <div class="relative max-w-max mx-auto" data-aos="fade-down">
         <h1 class="text-4xl font-bold text-typografi-light-header dark:text-typografi-dark-header header">Buku</h1>
       </div>
       <div class="mt-20 relative">
-        <div id="timeline">
+        <div id="timeline" data-aos="flip-down" data-aos-offset="500">
           <svg width="855" height="641" viewBox="0 0 855 641" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="453" y1="16" x2="453" y2="637" stroke="#FF3767" stroke-width="8" stroke-linecap="round"/>
             <path d="M483.664 63.436V76H481.144V70.654H475.762V76H473.242V63.436H475.762V68.602H481.144V63.436H483.664ZM485.496 70.978C485.496 69.97 485.694 69.076 486.09 68.296C486.498 67.516 487.044 66.916 487.728 66.496C488.424 66.076 489.198 65.866 490.05 65.866C490.794 65.866 491.442 66.016 491.994 66.316C492.558 66.616 493.008 66.994 493.344 67.45V66.028H495.882V76H493.344V74.542C493.02 75.01 492.57 75.4 491.994 75.712C491.43 76.012 490.776 76.162 490.032 76.162C489.192 76.162 488.424 75.946 487.728 75.514C487.044 75.082 486.498 74.476 486.09 73.696C485.694 72.904 485.496 71.998 485.496 70.978ZM493.344 71.014C493.344 70.402 493.224 69.88 492.984 69.448C492.744 69.004 492.42 68.668 492.012 68.44C491.604 68.2 491.166 68.08 490.698 68.08C490.23 68.08 489.798 68.194 489.402 68.422C489.006 68.65 488.682 68.986 488.43 69.43C488.19 69.862 488.07 70.378 488.07 70.978C488.07 71.578 488.19 72.106 488.43 72.562C488.682 73.006 489.006 73.348 489.402 73.588C489.81 73.828 490.242 73.948 490.698 73.948C491.166 73.948 491.604 73.834 492.012 73.606C492.42 73.366 492.744 73.03 492.984 72.598C493.224 72.154 493.344 71.626 493.344 71.014ZM500.864 67.486C501.188 67.006 501.632 66.616 502.196 66.316C502.772 66.016 503.426 65.866 504.158 65.866C505.01 65.866 505.778 66.076 506.462 66.496C507.158 66.916 507.704 67.516 508.1 68.296C508.508 69.064 508.712 69.958 508.712 70.978C508.712 71.998 508.508 72.904 508.1 73.696C507.704 74.476 507.158 75.082 506.462 75.514C505.778 75.946 505.01 76.162 504.158 76.162C503.414 76.162 502.76 76.018 502.196 75.73C501.644 75.43 501.2 75.046 500.864 74.578V76H498.344V62.68H500.864V67.486ZM506.138 70.978C506.138 70.378 506.012 69.862 505.76 69.43C505.52 68.986 505.196 68.65 504.788 68.422C504.392 68.194 503.96 68.08 503.492 68.08C503.036 68.08 502.604 68.2 502.196 68.44C501.8 68.668 501.476 69.004 501.224 69.448C500.984 69.892 500.864 70.414 500.864 71.014C500.864 71.614 500.984 72.136 501.224 72.58C501.476 73.024 501.8 73.366 502.196 73.606C502.604 73.834 503.036 73.948 503.492 73.948C503.96 73.948 504.392 73.828 504.788 73.588C505.196 73.348 505.52 73.006 505.76 72.562C506.012 72.118 506.138 71.59 506.138 70.978ZM511.821 64.84C511.377 64.84 511.005 64.702 510.705 64.426C510.417 64.138 510.273 63.784 510.273 63.364C510.273 62.944 510.417 62.596 510.705 62.32C511.005 62.032 511.377 61.888 511.821 61.888C512.265 61.888 512.631 62.032 512.919 62.32C513.219 62.596 513.369 62.944 513.369 63.364C513.369 63.784 513.219 64.138 512.919 64.426C512.631 64.702 512.265 64.84 511.821 64.84ZM513.063 66.028V76H510.543V66.028H513.063ZM519.369 76.162C518.553 76.162 517.821 76.018 517.173 75.73C516.525 75.43 516.009 75.028 515.625 74.524C515.253 74.02 515.049 73.462 515.013 72.85H517.551C517.599 73.234 517.785 73.552 518.109 73.804C518.445 74.056 518.859 74.182 519.351 74.182C519.831 74.182 520.203 74.086 520.467 73.894C520.743 73.702 520.881 73.456 520.881 73.156C520.881 72.832 520.713 72.592 520.377 72.436C520.053 72.268 519.531 72.088 518.811 71.896C518.067 71.716 517.455 71.53 516.975 71.338C516.507 71.146 516.099 70.852 515.751 70.456C515.415 70.06 515.247 69.526 515.247 68.854C515.247 68.302 515.403 67.798 515.715 67.342C516.039 66.886 516.495 66.526 517.083 66.262C517.683 65.998 518.385 65.866 519.189 65.866C520.377 65.866 521.325 66.166 522.033 66.766C522.741 67.354 523.131 68.152 523.203 69.16H520.791C520.755 68.764 520.587 68.452 520.287 68.224C519.999 67.984 519.609 67.864 519.117 67.864C518.661 67.864 518.307 67.948 518.055 68.116C517.815 68.284 517.695 68.518 517.695 68.818C517.695 69.154 517.863 69.412 518.199 69.592C518.535 69.76 519.057 69.934 519.765 70.114C520.485 70.294 521.079 70.48 521.547 70.672C522.015 70.864 522.417 71.164 522.753 71.572C523.101 71.968 523.281 72.496 523.293 73.156C523.293 73.732 523.131 74.248 522.807 74.704C522.495 75.16 522.039 75.52 521.439 75.784C520.851 76.036 520.161 76.162 519.369 76.162ZM538.398 67.216C538.11 66.688 537.714 66.286 537.21 66.01C536.706 65.734 536.118 65.596 535.446 65.596C534.702 65.596 534.042 65.764 533.466 66.1C532.89 66.436 532.44 66.916 532.116 67.54C531.792 68.164 531.63 68.884 531.63 69.7C531.63 70.54 531.792 71.272 532.116 71.896C532.452 72.52 532.914 73 533.502 73.336C534.09 73.672 534.774 73.84 535.554 73.84C536.514 73.84 537.3 73.588 537.912 73.084C538.524 72.568 538.926 71.854 539.118 70.942H534.798V69.016H541.602V71.212C541.434 72.088 541.074 72.898 540.522 73.642C539.97 74.386 539.256 74.986 538.38 75.442C537.516 75.886 536.544 76.108 535.464 76.108C534.252 76.108 533.154 75.838 532.17 75.298C531.198 74.746 530.43 73.984 529.866 73.012C529.314 72.04 529.038 70.936 529.038 69.7C529.038 68.464 529.314 67.36 529.866 66.388C530.43 65.404 531.198 64.642 532.17 64.102C533.154 63.55 534.246 63.274 535.446 63.274C536.862 63.274 538.092 63.622 539.136 64.318C540.18 65.002 540.9 65.968 541.296 67.216H538.398ZM552.737 70.798C552.737 71.158 552.713 71.482 552.665 71.77H545.375C545.435 72.49 545.687 73.054 546.131 73.462C546.575 73.87 547.121 74.074 547.769 74.074C548.705 74.074 549.371 73.672 549.767 72.868H552.485C552.197 73.828 551.645 74.62 550.829 75.244C550.013 75.856 549.011 76.162 547.823 76.162C546.863 76.162 545.999 75.952 545.231 75.532C544.475 75.1 543.881 74.494 543.449 73.714C543.029 72.934 542.819 72.034 542.819 71.014C542.819 69.982 543.029 69.076 543.449 68.296C543.869 67.516 544.457 66.916 545.213 66.496C545.969 66.076 546.839 65.866 547.823 65.866C548.771 65.866 549.617 66.07 550.361 66.478C551.117 66.886 551.699 67.468 552.107 68.224C552.527 68.968 552.737 69.826 552.737 70.798ZM550.127 70.078C550.115 69.43 549.881 68.914 549.425 68.53C548.969 68.134 548.411 67.936 547.751 67.936C547.127 67.936 546.599 68.128 546.167 68.512C545.747 68.884 545.489 69.406 545.393 70.078H550.127ZM557.096 62.68V76H554.576V62.68H557.096ZM558.938 70.978C558.938 69.97 559.136 69.076 559.532 68.296C559.94 67.516 560.486 66.916 561.17 66.496C561.866 66.076 562.64 65.866 563.492 65.866C564.236 65.866 564.884 66.016 565.436 66.316C566 66.616 566.45 66.994 566.786 67.45V66.028H569.324V76H566.786V74.542C566.462 75.01 566.012 75.4 565.436 75.712C564.872 76.012 564.218 76.162 563.474 76.162C562.634 76.162 561.866 75.946 561.17 75.514C560.486 75.082 559.94 74.476 559.532 73.696C559.136 72.904 558.938 71.998 558.938 70.978ZM566.786 71.014C566.786 70.402 566.666 69.88 566.426 69.448C566.186 69.004 565.862 68.668 565.454 68.44C565.046 68.2 564.608 68.08 564.14 68.08C563.672 68.08 563.24 68.194 562.844 68.422C562.448 68.65 562.124 68.986 561.872 69.43C561.632 69.862 561.512 70.378 561.512 70.978C561.512 71.578 561.632 72.106 561.872 72.562C562.124 73.006 562.448 73.348 562.844 73.588C563.252 73.828 563.684 73.948 564.14 73.948C564.608 73.948 565.046 73.834 565.454 73.606C565.862 73.366 566.186 73.03 566.426 72.598C566.666 72.154 566.786 71.626 566.786 71.014ZM574.305 67.468C574.629 67.012 575.073 66.634 575.637 66.334C576.213 66.022 576.867 65.866 577.599 65.866C578.451 65.866 579.219 66.076 579.903 66.496C580.599 66.916 581.145 67.516 581.541 68.296C581.949 69.064 582.153 69.958 582.153 70.978C582.153 71.998 581.949 72.904 581.541 73.696C581.145 74.476 580.599 75.082 579.903 75.514C579.219 75.946 578.451 76.162 577.599 76.162C576.867 76.162 576.219 76.012 575.655 75.712C575.103 75.412 574.653 75.034 574.305 74.578V80.752H571.785V66.028H574.305V67.468ZM579.579 70.978C579.579 70.378 579.453 69.862 579.201 69.43C578.961 68.986 578.637 68.65 578.229 68.422C577.833 68.194 577.401 68.08 576.933 68.08C576.477 68.08 576.045 68.2 575.637 68.44C575.241 68.668 574.917 69.004 574.665 69.448C574.425 69.892 574.305 70.414 574.305 71.014C574.305 71.614 574.425 72.136 574.665 72.58C574.917 73.024 575.241 73.366 575.637 73.606C576.045 73.834 576.477 73.948 576.933 73.948C577.401 73.948 577.833 73.828 578.229 73.588C578.637 73.348 578.961 73.006 579.201 72.562C579.453 72.118 579.579 71.59 579.579 70.978ZM596.823 63.436V65.47H593.475V76H590.955V65.47H587.607V63.436H596.823ZM607.932 70.798C607.932 71.158 607.908 71.482 607.86 71.77H600.57C600.63 72.49 600.882 73.054 601.326 73.462C601.77 73.87 602.316 74.074 602.964 74.074C603.9 74.074 604.566 73.672 604.962 72.868H607.68C607.392 73.828 606.84 74.62 606.024 75.244C605.208 75.856 604.206 76.162 603.018 76.162C602.058 76.162 601.194 75.952 600.426 75.532C599.67 75.1 599.076 74.494 598.644 73.714C598.224 72.934 598.014 72.034 598.014 71.014C598.014 69.982 598.224 69.076 598.644 68.296C599.064 67.516 599.652 66.916 600.408 66.496C601.164 66.076 602.034 65.866 603.018 65.866C603.966 65.866 604.812 66.07 605.556 66.478C606.312 66.886 606.894 67.468 607.302 68.224C607.722 68.968 607.932 69.826 607.932 70.798ZM605.322 70.078C605.31 69.43 605.076 68.914 604.62 68.53C604.164 68.134 603.606 67.936 602.946 67.936C602.322 67.936 601.794 68.128 601.362 68.512C600.942 68.884 600.684 69.406 600.588 70.078H605.322ZM612.291 67.576C612.615 67.048 613.035 66.634 613.551 66.334C614.079 66.034 614.679 65.884 615.351 65.884V68.53H614.685C613.893 68.53 613.293 68.716 612.885 69.088C612.489 69.46 612.291 70.108 612.291 71.032V76H609.771V66.028H612.291V67.576ZM619.569 67.486C619.893 67.006 620.337 66.616 620.901 66.316C621.477 66.016 622.131 65.866 622.863 65.866C623.715 65.866 624.483 66.076 625.167 66.496C625.863 66.916 626.409 67.516 626.805 68.296C627.213 69.064 627.417 69.958 627.417 70.978C627.417 71.998 627.213 72.904 626.805 73.696C626.409 74.476 625.863 75.082 625.167 75.514C624.483 75.946 623.715 76.162 622.863 76.162C622.119 76.162 621.465 76.018 620.901 75.73C620.349 75.43 619.905 75.046 619.569 74.578V76H617.049V62.68H619.569V67.486ZM624.843 70.978C624.843 70.378 624.717 69.862 624.465 69.43C624.225 68.986 623.901 68.65 623.493 68.422C623.097 68.194 622.665 68.08 622.197 68.08C621.741 68.08 621.309 68.2 620.901 68.44C620.505 68.668 620.181 69.004 619.929 69.448C619.689 69.892 619.569 70.414 619.569 71.014C619.569 71.614 619.689 72.136 619.929 72.58C620.181 73.024 620.505 73.366 620.901 73.606C621.309 73.834 621.741 73.948 622.197 73.948C622.665 73.948 623.097 73.828 623.493 73.588C623.901 73.348 624.225 73.006 624.465 72.562C624.717 72.118 624.843 71.59 624.843 70.978ZM630.526 64.84C630.082 64.84 629.71 64.702 629.41 64.426C629.122 64.138 628.978 63.784 628.978 63.364C628.978 62.944 629.122 62.596 629.41 62.32C629.71 62.032 630.082 61.888 630.526 61.888C630.97 61.888 631.336 62.032 631.624 62.32C631.924 62.596 632.074 62.944 632.074 63.364C632.074 63.784 631.924 64.138 631.624 64.426C631.336 64.702 630.97 64.84 630.526 64.84ZM631.768 66.028V76H629.248V66.028H631.768ZM637.192 68.098V72.922C637.192 73.258 637.27 73.504 637.426 73.66C637.594 73.804 637.87 73.876 638.254 73.876H639.424V76H637.84C635.716 76 634.654 74.968 634.654 72.904V68.098H633.466V66.028H634.654V63.562H637.192V66.028H639.424V68.098H637.192ZM643.756 62.68V76H641.236V62.68H643.756ZM645.598 70.978C645.598 69.97 645.796 69.076 646.192 68.296C646.6 67.516 647.146 66.916 647.83 66.496C648.526 66.076 649.3 65.866 650.152 65.866C650.896 65.866 651.544 66.016 652.096 66.316C652.66 66.616 653.11 66.994 653.446 67.45V66.028H655.984V76H653.446V74.542C653.122 75.01 652.672 75.4 652.096 75.712C651.532 76.012 650.878 76.162 650.134 76.162C649.294 76.162 648.526 75.946 647.83 75.514C647.146 75.082 646.6 74.476 646.192 73.696C645.796 72.904 645.598 71.998 645.598 70.978ZM653.446 71.014C653.446 70.402 653.326 69.88 653.086 69.448C652.846 69.004 652.522 68.668 652.114 68.44C651.706 68.2 651.268 68.08 650.8 68.08C650.332 68.08 649.9 68.194 649.504 68.422C649.108 68.65 648.784 68.986 648.532 69.43C648.292 69.862 648.172 70.378 648.172 70.978C648.172 71.578 648.292 72.106 648.532 72.562C648.784 73.006 649.108 73.348 649.504 73.588C649.912 73.828 650.344 73.948 650.8 73.948C651.268 73.948 651.706 73.834 652.114 73.606C652.522 73.366 652.846 73.03 653.086 72.598C653.326 72.154 653.446 71.626 653.446 71.014ZM664.061 65.884C664.817 65.884 665.489 66.052 666.077 66.388C666.665 66.712 667.121 67.198 667.445 67.846C667.781 68.482 667.949 69.25 667.949 70.15V76H665.429V70.492C665.429 69.7 665.231 69.094 664.835 68.674C664.439 68.242 663.899 68.026 663.215 68.026C662.519 68.026 661.967 68.242 661.559 68.674C661.163 69.094 660.965 69.7 660.965 70.492V76H658.445V62.68H660.965V67.27C661.289 66.838 661.721 66.502 662.261 66.262C662.801 66.01 663.401 65.884 664.061 65.884ZM683.185 63.436V65.47H679.837V76H677.317V65.47H673.969V63.436H683.185ZM694.293 70.798C694.293 71.158 694.269 71.482 694.221 71.77H686.931C686.991 72.49 687.243 73.054 687.687 73.462C688.131 73.87 688.677 74.074 689.325 74.074C690.261 74.074 690.927 73.672 691.323 72.868H694.041C693.753 73.828 693.201 74.62 692.385 75.244C691.569 75.856 690.567 76.162 689.379 76.162C688.419 76.162 687.555 75.952 686.787 75.532C686.031 75.1 685.437 74.494 685.005 73.714C684.585 72.934 684.375 72.034 684.375 71.014C684.375 69.982 684.585 69.076 685.005 68.296C685.425 67.516 686.013 66.916 686.769 66.496C687.525 66.076 688.395 65.866 689.379 65.866C690.327 65.866 691.173 66.07 691.917 66.478C692.673 66.886 693.255 67.468 693.663 68.224C694.083 68.968 694.293 69.826 694.293 70.798ZM691.683 70.078C691.671 69.43 691.437 68.914 690.981 68.53C690.525 68.134 689.967 67.936 689.307 67.936C688.683 67.936 688.155 68.128 687.723 68.512C687.303 68.884 687.045 69.406 686.949 70.078H691.683ZM698.653 67.576C698.977 67.048 699.397 66.634 699.913 66.334C700.441 66.034 701.041 65.884 701.713 65.884V68.53H701.047C700.255 68.53 699.655 68.716 699.247 69.088C698.851 69.46 698.653 70.108 698.653 71.032V76H696.133V66.028H698.653V67.576ZM702.762 70.978C702.762 69.97 702.96 69.076 703.356 68.296C703.764 67.516 704.31 66.916 704.994 66.496C705.69 66.076 706.464 65.866 707.316 65.866C708.06 65.866 708.708 66.016 709.26 66.316C709.824 66.616 710.274 66.994 710.61 67.45V66.028H713.148V76H710.61V74.542C710.286 75.01 709.836 75.4 709.26 75.712C708.696 76.012 708.042 76.162 707.298 76.162C706.458 76.162 705.69 75.946 704.994 75.514C704.31 75.082 703.764 74.476 703.356 73.696C702.96 72.904 702.762 71.998 702.762 70.978ZM710.61 71.014C710.61 70.402 710.49 69.88 710.25 69.448C710.01 69.004 709.686 68.668 709.278 68.44C708.87 68.2 708.432 68.08 707.964 68.08C707.496 68.08 707.064 68.194 706.668 68.422C706.272 68.65 705.948 68.986 705.696 69.43C705.456 69.862 705.336 70.378 705.336 70.978C705.336 71.578 705.456 72.106 705.696 72.562C705.948 73.006 706.272 73.348 706.668 73.588C707.076 73.828 707.508 73.948 707.964 73.948C708.432 73.948 708.87 73.834 709.278 73.606C709.686 73.366 710.01 73.03 710.25 72.598C710.49 72.154 710.61 71.626 710.61 71.014ZM721.135 65.884C722.323 65.884 723.283 66.262 724.015 67.018C724.747 67.762 725.113 68.806 725.113 70.15V76H722.593V70.492C722.593 69.7 722.395 69.094 721.999 68.674C721.603 68.242 721.063 68.026 720.379 68.026C719.683 68.026 719.131 68.242 718.723 68.674C718.327 69.094 718.129 69.7 718.129 70.492V76H715.609V66.028H718.129V67.27C718.465 66.838 718.891 66.502 719.407 66.262C719.935 66.01 720.511 65.884 721.135 65.884ZM731.416 65.866C732.16 65.866 732.814 66.016 733.378 66.316C733.942 66.604 734.386 66.982 734.71 67.45V66.028H737.248V76.072C737.248 76.996 737.062 77.818 736.69 78.538C736.318 79.27 735.76 79.846 735.016 80.266C734.272 80.698 733.372 80.914 732.316 80.914C730.9 80.914 729.736 80.584 728.824 79.924C727.924 79.264 727.414 78.364 727.294 77.224H729.796C729.928 77.68 730.21 78.04 730.642 78.304C731.086 78.58 731.62 78.718 732.244 78.718C732.976 78.718 733.57 78.496 734.026 78.052C734.482 77.62 734.71 76.96 734.71 76.072V74.524C734.386 74.992 733.936 75.382 733.36 75.694C732.796 76.006 732.148 76.162 731.416 76.162C730.576 76.162 729.808 75.946 729.112 75.514C728.416 75.082 727.864 74.476 727.456 73.696C727.06 72.904 726.862 71.998 726.862 70.978C726.862 69.97 727.06 69.076 727.456 68.296C727.864 67.516 728.41 66.916 729.094 66.496C729.79 66.076 730.564 65.866 731.416 65.866ZM734.71 71.014C734.71 70.402 734.59 69.88 734.35 69.448C734.11 69.004 733.786 68.668 733.378 68.44C732.97 68.2 732.532 68.08 732.064 68.08C731.596 68.08 731.164 68.194 730.768 68.422C730.372 68.65 730.048 68.986 729.796 69.43C729.556 69.862 729.436 70.378 729.436 70.978C729.436 71.578 729.556 72.106 729.796 72.562C730.048 73.006 730.372 73.348 730.768 73.588C731.176 73.828 731.608 73.948 732.064 73.948C732.532 73.948 732.97 73.834 733.378 73.606C733.786 73.366 734.11 73.03 734.35 72.598C734.59 72.154 734.71 71.626 734.71 71.014Z" fill="black"/>
@@ -228,7 +232,7 @@
     </main>
     <img class="my-20 col-start-3 col-span-8" src="public/img/Divide.svg" alt="">
     <main class="col-span-8 col-start-3 mt-20 relative" id="galeri">
-      <div class="relative max-w-max mx-auto">
+      <div class="relative max-w-max mx-auto" data-aos="fade-down">
         <h1 class="text-4xl font-bold text-typografi-light-header dark:text-typografi-dark-header header">Galeri</h1>
       </div>
       <div class="mt-20 relative">
@@ -236,7 +240,7 @@
           <button data-galeri="btn-prev" type="button">
             <i class="bx bx-chevrons-left text-2xl p-1.5 bg-mycolor shadow-myshadow text-typografi-red-light rounded-full"></i>
           </button>
-          <div class="flex items-center" style="height: 470.98px;">
+          <div data-aos="fade-down" class="flex items-center" style="height: 470.98px;">
             <div class="relative">
               <img class="absolute -top-14 -right-14 select-none pointer-events-none" style="z-index: -20;" src="public/img/Ellipse 1.svg" alt="">
               <img data-index-show="1" data-galeri="show" class="shadow-xl mx-auto transition-all duration-300" src="public/img/Kartini 1.png" alt="">
@@ -274,5 +278,14 @@
     </footer>
   </section>
   <script src="public/js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in-out-back',
+      duration: 1000, 
+      once: true, 
+      offset: 200,
+    });
+  </script>
 </body>
 </html>
