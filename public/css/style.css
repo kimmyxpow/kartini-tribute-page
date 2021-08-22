@@ -903,6 +903,10 @@ video {
   overflow: visible;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1048,6 +1052,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-poppins {
+  font-family: "poppins", sans-serif;
 }
 
 .text-sm {
