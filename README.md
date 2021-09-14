@@ -1,4 +1,4 @@
-![Visitor Badge](https://visitor-badges.glitch.me?username=bbhpowpow&repo=kartini-tribute-page)
+![Visitor Badge](https://visitor-badges.glitch.me?username=bbhpowpow&repo=kartini-tribute-page&label=VISITOR&style=for-the-badge&color=%23457BFF&token=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&contentType=svg)
 # kartini-tribute-page
 Tribute Page R.A. Kartini by me :)
 
