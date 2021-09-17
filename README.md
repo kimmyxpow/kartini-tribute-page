@@ -12,7 +12,7 @@ Website ini dibuat menggunakan tailwind css, jadi jika ingin memodifikasi silaka
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 
-Atau baca dokumentasi tailwind ![disini.](https://tailwindcss.com/docs)
+Atau baca dokumentasi tailwind [disini.](https://tailwindcss.com/docs)
 
 Sampai saat ini, website ini belum responsive.
 
