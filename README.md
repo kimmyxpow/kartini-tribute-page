@@ -2,7 +2,11 @@
 # kartini-tribute-page
 Tribute Page R.A. Kartini by me :)
 
-Desain website ini bisa dilihat di https://ksana.in/tribute-kartini-design-powpow. Desain tersebut saya buat saat saya mengikuti event design jam yang di adakan di discord Web Programming UNPAS (Universitas Pasundan). Demo websitenya bisa dilihat di http://radenayukartini.great-site.net/.
+Desain website ini bisa dilihat di https://ksana.in/tribute-kartini-design-powpow. Desain tersebut saya buat saat saya mengikuti event design jam yang di adakan di discord Web Programming UNPAS (Universitas Pasundan) 15 Agustus 2021, lalu saya berinisiatif membuat desain tersebut menjadi website. 
+
+Demo websitenya bisa dilihat di http://radenayukartini.great-site.net/.
+
+Website ini dibuat menggunakan tailwind css, jadi jika ingin memodifikasi silakan install dulu taiwild cssnya.
 
 Sampai saat ini, website ini belum responsive.
 
