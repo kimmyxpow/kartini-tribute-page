@@ -6,7 +6,7 @@ Desain website ini bisa dilihat di https://ksana.in/tribute-kartini-design-powpo
 
 Demo websitenya bisa dilihat di http://radenayukartini.great-site.net/.
 
-Website ini dibuat menggunakan tailwind css, jadi jika ingin memodifikasi silakan install dulu taiwild cssnya dengan cata dibawah ini :
+Website ini dibuat menggunakan tailwind css, jadi jika ingin memodifikasi silakan install dulu taiwild cssnya dengan cara dibawah ini :
 
 ```
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
